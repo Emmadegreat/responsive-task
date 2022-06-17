@@ -30,18 +30,26 @@
                 <form action="#" class="form" method="POST">
                     <div class="form__element">
                         <input type="text" name="firstName" id="first__name" class="inputbox" placeholder="Firstname" required>
+                        <img src="./images/icon-error.svg" alt="img" class="error__image">
+                        <p class="error__message">Firstname field will not be blank</p>
                     </div><br>
 
                     <div class="form__element">
                         <input type="text" name="lastName" id="last__name" class="inputbox" placeholder="Lastname" required>
+                        <img src="./images/icon-error.svg" alt="img" class="error__image">
+                        <p class="error__message">Lastname field will not be blank</p>
                     </div><br>
 
                     <div class="form__element">
                         <input type="email" name="email" id="email" class="inputbox" placeholder="Email" required>
+                        <img src="./images/icon-error.svg" alt="img" class="error__image">
+                        <p class="error__message">Email field will not be blank</p>
                     </div><br>
 
                     <div class="form__element">
                         <input type="password" name="password" id="password" class="inputbox" placeholder="Password" required>
+                        <img src="./images/icon-error.svg" alt="img" class="error__image">
+                        <p class="error__message">Password field will not be blank</p>
                     </div><br>
 
                     <div class="form__element">
@@ -60,6 +68,7 @@
         <span> 2022</span>&nbsp;&nbsp;
         <span>ZURITEAM</span>
     </footer>
-    
+    <!-----------------------the action of the error__image and error__message 
+    will be triggered with javascript. Though here it has been styled by css-->
 </body>
 </html>

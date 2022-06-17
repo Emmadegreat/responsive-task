@@ -91,6 +91,22 @@ main{
     border-radius: 0.4rem;
     font-size: 1rem;
 }
+
+.error__image{/*---------error image----------*/
+    position: absolute;
+    display: block;
+    right: 320px;
+    margin-top: -2.3rem;
+}
+
+.error__message{/*---------error image----------*/
+    display: block;
+    text-align: right;
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    margin-right: 4rem;
+}
+
 #bottom__button{
     width: 400px;
     height: 3.4rem;
@@ -158,6 +174,9 @@ span a{
         width: 100%;
         align-items: center;      
     }
+    .error__image,.error__message{
+        display: none;
+    }
      
 }
 
@@ -207,6 +226,10 @@ span a{
 
     .top{
         height: 5rem;
+    }
+
+    .error__image,.error__message{
+        display: none;
     }
            
 }
@@ -260,8 +283,13 @@ span a{
     .top{
         height: 5rem;
     }
+
+    .error__image,.error__message{
+        display: none;
+    }
            
 }
+
 @media screen and (max-width:630px){
     body{
     background: url("./images/bg-intro-mobile.png");
@@ -313,7 +341,12 @@ span a{
         height: 5rem;
         
     }
+
+    .error__image,.error__message{
+        display: none;
+    }
 }
+
 @media screen and (max-width:470px) and (min-width:375px){
     body{
     background: url("./images/bg-intro-mobile.png");
@@ -375,6 +408,10 @@ span a{
 
     header{
         font-size: 0.6rem;
+    }
+
+    .error__image,.error__message{
+        display: none;
     }
     
 }
